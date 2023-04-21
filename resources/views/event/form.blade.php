@@ -63,9 +63,15 @@
                         </div>
                         @endif
 
-                        @if($event->status != 'Rejected' && $event->status != 'Cancelled')
+                        @if($state == 'edit')
+                            @if($event->status != 'Rejected' && $event->status != 'Cancelled')
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            @endif
+                        @else
                             <button type="submit" class="btn btn-success">Submit</button>
                         @endif
+
+                        
                     </form>
                 </div> 
         </div>

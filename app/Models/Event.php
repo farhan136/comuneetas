@@ -13,4 +13,9 @@ class Event extends Model
     {
         return $this->belongsTo(Group::class, 'group_id', 'id'); //parameter kedua adalah milik model Event, parameter ketiga adalah milik model Group
     }
+
+    public function creator()
+    {
+        return $this->belongsTo(User::class, 'created_by', 'id'); //parameter kedua adalah milik model Event, parameter ketiga adalah milik model Group
+    }
 }

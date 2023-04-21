@@ -37,7 +37,6 @@
                 <a class="navbar-brand" href="{{ url('/mygroup') }}">
                     Groups
                 </a>
-
                 <a class="navbar-brand" href="{{ url('/event') }}">
                     Events
                 </a>

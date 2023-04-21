@@ -56,6 +56,7 @@ class EventController extends Controller
             'state'=>$state,
             'current_date'=>date('Y-m-d')
         );
+        // dd($event);
         return view('event.form', $data);
     }
 
@@ -76,7 +77,7 @@ class EventController extends Controller
         $event->start_date = $request->start_date;
         $event->end_date = $request->end_date;
         $event->category = $request->category;
-        $event->price = $request->price;
+        $event->price = $request->price == ''? 0 : $request->price;
 
         $group = Group::find($request->group);
 
