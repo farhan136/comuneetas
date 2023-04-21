@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Berikut ini beberapa halaman yang ada di website Larablog dan penjelasan singkatnya tentang halaman tersebut:
+Berikut ini beberapa halaman yang ada di website comuneetas dan penjelasan singkatnya tentang halaman tersebut:
 1. Halaman Landing Page 
 ![image.png]( https://github.com/farhan136/comuneetas/blob/main/screenshot/landing.PNG )
 - Halaman yang pertama kali muncul ketika user membuka website, berisi beberapa event yang ada 
